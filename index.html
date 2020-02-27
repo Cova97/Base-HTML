@@ -13,9 +13,9 @@
 </head>
 
 <body>
-
+<!--Aqui empieza la barra de navegacion-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"> <h3>GATOS</h3> </a>
+  <a class="navbar-brand" href="#"> <h1>GATOS</h1> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -23,34 +23,30 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"> <h1>Home</h1> <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"> <h2>Home</h2> <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"> <h5>Link</h5> </a>
-      </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          <h2>Catalogo</h2>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+          <a class="dropdown-item" href="#"> <h6>Gatos bebes</h6> </a>
+          <a class="dropdown-item" href="#"> <h6>Gatos promedio</h6> </a>
+          <a class="dropdown-item" href="#"> <h6>Gatos viejos</h6> </a>
+
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" >Search</button>
     </form>
   </div>
 </nav>
+<!--Aqui termina la barra de navegacion-->
 
-
+<!--Aqui empieza el despliegue de las images-->
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -59,25 +55,24 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/gatonegro.jpg" class="d-block w-100" alt="...">
-      <!--ihikhvhvikv-->
+      <img src="images/gatonegro.jpg" width="200" height="600" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Gato de la mala suerte.</h5>
+        <p>Es cariñoso pero cuidado que tu suerte te puede cambiar</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="images/gatoamarillo.jpg" width="200" height="600" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5>El gato flojo.</h5>
+        <p>Le encanta dormir como nuca y es mas flojo que tu.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="images/gatogris.jpg" width="200" height="600" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5>El gato loco.</h5>
+        <p>Esta demente se hace lo que se le antoge.</p>
       </div>
     </div>
   </div>
@@ -90,7 +85,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
+<!--Aqui termina el despliegue de las images-->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
